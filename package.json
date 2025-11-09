@@ -1,0 +1,26 @@
+{
+  "name": "wwebjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.19.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "puppeteer": "^24.29.0",
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.34.1",
+    "wwebjs-mongo": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
