@@ -15,7 +15,7 @@ module.exports.downloadFile = async (media) => {
         // Validate input
         if (!media || !media.data || !media.mimetype) {
             throw new Error("Invalid media object: missing data or mimetype");
-        }
+        } 
 
         // Decode base64 data
         const baseToBuffer = Buffer.from(media.data, "base64");
